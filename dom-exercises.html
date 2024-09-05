@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en" data-dark>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.1.3/hamburgers.min.css">
+    <link rel="stylesheet" href="css/dom-exercises.css">
+</head>
+
+<body data-dark="">
+    <header class="header">
+        <h1>DOM exercises</h1>
+    </header>
+    <button class="panel-btn hamburger hamburger--vortex" type="button">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+    <aside class="panel">
+        <nav class="menu">
+            <a href="#section1" data-scroll-spy>Digital clock and audible alarm</a>
+            <a href="#section2" data-scroll-spy>Keyboard events</a>
+            <a href="#section3" data-scroll-spy>Countdown</a>
+            <a href="#section4" data-scroll-spy>Javascript Responsive</a>
+            <a href="#section5" data-scroll-spy>Responsive tester</a>
+            <a href="#section6" data-scroll-spy>User agent</a>
+            <a href="#section7" data-scroll-spy>Network detection</a>
+            <a href="#section8" data-scroll-spy>Web cam</a>
+            <a href="#section9" data-scroll-spy>Geo</a>
+            <a href="#section10" data-scroll-spy>Filter</a>
+            <a href="#section11" data-scroll-spy>Lottery</a>
+            <a href="#section12" data-scroll-spy>Responsive slider</a>
+            <a href="#section13" data-scroll-spy>Smart video</a>
+            <a href="#section14" data-scroll-spy>Form</a>
+            <a href="#section15" data-scroll-spy>Narrator</a>
+        </nav>
+    </aside>
+    <main>
+        <section id="section1" class="section" data-scroll-spy data-scroll-spy>
+            <h2>Digital clock and audible alarm</h2>
+            <div id="clock"></div>
+            <div>
+                <button id="start-clock">Start clock</button>
+                <button id="end-clock">End clock</button>
+                <button id="start-alarm">Start alarm</button>
+                <button id="end-alarm">End alarm</button>
+            </div>
+        </section>
+        <section id="section2" class="section" data-scroll-spy>
+            <h2>>Keyboard events</h2>
+            <article class="stage">
+                <div class="ball"></div>
+            </article>
+        </section>
+        <section id="section3" class="section" data-scroll-spy>
+            <h2>Countdown</h2>
+            <div id="countdown"></div>
+        </section>
+        <section id="section4" class="section" data-scroll-spy>
+            <h2>Javascript Responsive</h2>
+            <div id="youtube"></div>
+            <div id="gmaps"></div>
+        </section>
+        <section id="section5" class="section" data-scroll-spy>
+            <h2>Responsive tester</h2>
+            <form id="repsonsive-tester">
+                <input name="adress" type="url" placeholder="URL" required>
+                <br>
+                <input name="width" type="text" placeholder="Width" required>
+                <br>
+                <input name="height" type="text" placeholder="height" required>
+                <br>
+                <input name="test" type="submit" value="test">
+                <input name="close" type="button" value="close">
+            </form>
+        </section>
+        <section id="section6" class="section" data-scroll-spy>
+            <h2>User agent</h2>
+            <div id="user-device"></div>
+        </section>
+        <section id="section7" class="section" data-scroll-spy>
+            <h2>Network detection</h2>
+        </section>
+        <section id="section8" class="section" data-scroll-spy>
+            <h2>Web cam</h2>
+            <video id="webcam"></video>
+        </section>
+        <section id="section9" class="section" data-scroll-spy>
+            <h2>Geo</h2>
+            <div id="geolocation"></div>
+        </section>
+        <section id="section10" class="section" data-scroll-spy>
+            <h2>Filter</h2>
+            <input type="search" placeholder="Search..." class="card-filter">
+        </section>
+        <section id="section11" class="section" data-scroll-spy>
+            <h2>Lottery</h2>
+            <ul class="players">
+                <li class="player">Javascript</li>
+                <li class="player">PHP</li>
+                <li class="player">JAVA</li>
+                <li class="player">C</li>
+                <li class="player">PYTHON</li>
+                <li class="player">RUBY</li>
+                <li class="player">GO</li>
+                <li class="player">VIsual Basic</li>
+                <li class="player">Rust</li>
+                <li class="player">Perl</li>
+            </ul>
+            <button id="winner-btn">Get winner</button>
+        </section>
+        <section id="section12" class="section" data-scroll-spy>
+            <h2>Responsive Slider</h2>
+            <div class="slider">
+                <div class="slider-slides">
+                    <div class="slider-slide active">
+                        <img src="https://placeimg.com/400/400/animals" alt="animals">
+                    </div>
+                    <div class="slider-slide"></div>
+                    <h4>2 image</h4>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit similique possimus odit autem
+                        perferendis? Explicabo nemo quidem et porro fugit. Illo, obcaecati. Aliquid cupiditate ratione
+                        tempora provident quibusdam debitis consequatur?
+                    </p>
+                    <div class="slider-slide">
+                        <img src="https://placeimg.com/400/400/nature" alt="nature">
+                    </div>
+                    <div class="slider-slide">
+                        <h4>4 image</h4>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit similique possimus odit
+                            autem perferendis? Explicabo nemo quidem et porro fugit. Illo, obcaecati. Aliquid cupiditate
+                            ratione tempora provident quibusdam debitis consequatur?
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-btns">
+                <a class="prev" href="#">&laquo;</a>
+                <a class="next" href="#">&raquo;</a>
+            </div>
+        </section>
+        <section id="section13" class="section" data-scroll-spy>
+            <h2>Smart video</h2>
+            <video src="assets/video.mp4" muted controls loop data-smart-video></video>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <video src="assets/video.mp4" muted controls loop data-smart-video></video>
+
+        </section>
+        <section id="section14" class="section" data-scroll-spy>
+            <h2>Form</h2>
+            <form class="contact-form" action="https://formsubmit.co/your@email.com" target="_blank" method="post">
+                <legend>Send us your comments</legend>
+                <input type="text" name="name" placeholder="Write your name"
+                    title="The name only accepts letters and white spaces" pattern="^[A-Za-z\s]+$" required>
+                <input type="email" name="email" placeholder="Wite your email" title="Wrong email"
+                    pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" required>
+                <input type="text" name="subject" placeholder="Subject" required title="Subject required">
+                <textarea name="comments" cols="50" rows="5" placeholder="Write your comments" data-pattern="^.{1,255}$"
+                    required title="Your comment should not exceed 250 characters"></textarea>
+                <input type="submit" value="send">
+                <div class="contact-form-loader">
+                    <!--samherbert.net-->
+                    <img src="assets/loader.svg" alt="Loading">
+                </div>
+                <div class="contact-form-response none">
+                    <p>The data has been ent</p>
+                </div>
+            </form>
+        </section>
+        <section id="section15" class="section" data-scroll-spy>
+            <h2>Narrator</h2>
+            <select id="speech-select">
+                <option value="">Choose a voice</option>
+            </select>
+            <br>
+            <br>
+            <textarea name="speech-text" cols="50" rows="5">Enter text to read it</textarea>
+            <button id="speech-btn">Rread text</button>
+            <br>
+            <br>
+        </section>
+    </main>
+    <button class="scroll-top-btn hidden">&#11014;</button>
+    <button class="dark-theme-btn">Moon</button>
+
+    <script src="js/index_dom.js" type="module"></script>
+</body>
+
+</html>
